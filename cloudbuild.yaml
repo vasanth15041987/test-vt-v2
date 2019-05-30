@@ -1,3 +1,3 @@
-gcloud composer environments storage dags import \
-  --environment usertest  --location us-east1 \
-  --source gs://wow-taw-d1-vthirumurugan-93bq-composer-bucket/dags/quickstart.py
+steps:
+- name: gcr.io/cloud-builders/git
+  args: ['clone', 'https://github.com/GITHUB_REPO_USER/GITHUB_REPO_NAME.git']
